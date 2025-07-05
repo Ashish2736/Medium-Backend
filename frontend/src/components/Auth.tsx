@@ -63,7 +63,9 @@ export const Auth = ({ type }: { type: "signup" | "signin" }) =>{
     }} />
     <button onClick={sendRequest} type="button" className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg
      text-sm mt-8 px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 w-full dark:focus:ring-gray-700 dark:border-gray-700">{type === "signup" ? "Signup" : "Signin"}</button>
-
+       <p className="mt-4">
+        This is Created by Ashish Bastola
+       </p>
        </div>
      </div>
    </div>
