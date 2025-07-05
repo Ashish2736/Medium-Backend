@@ -10,7 +10,8 @@
    "vars": {
    "DATABASE_URL":"",
    "JWT_SECRET":"" 
-   }
+   },
+   
   // "kv_namespaces": [
   //   {
   //     "binding": "MY_KV_NAMESPACE",
